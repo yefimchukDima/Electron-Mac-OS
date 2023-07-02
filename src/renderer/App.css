@@ -1,0 +1,19 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../../fonts/UbuntuMono-B.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'UbuntuMono';
+  src: url('../../fonts/Ubuntu-M.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: 'UbuntuMono', sans-serif;
+  padding: 0;
+}
